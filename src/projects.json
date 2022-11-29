@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Auto Auto Cars Dealership",
+        "image": "https://imgur.com/paw9ptf.png",
+        "about": 
+            "That website allows our users to buy thier dream cars over the internet with secure login process. Users can login and view variety of cars with their description and set up meeting schedule.",
+        "technologies": ["Node", "Express", "Handlebars", "MySQL", "Google Cloud - Maps & Places APIs", "Bootstrap"],
+        "repo": "https://github.com/asrabilal/Auto_Auto-Cars-Dealership.git",
+        "site": " https://stormy-wildwood-35895.herokuapp.com/"
+    },
+    {
+        "title": "Ultimate Movies",
+        "image": "https://imgur.com/mgUvsPj.png",
+        "about": 
+            "It is a simple movie application that allows the user to select and save movies by rating. So, that user can watch top rating movies with no hustle.",
+        "technologies": ["Stripe API", "Node", "Express", "Axios"],
+        "repo": "https://github.com/borthvader/crispy-memory.git",
+        "site": "https://borthvader.github.io/crispy-memory/"
+    },
+    {
+        "title": "Weather Dashboard",
+        "image": "https://imgur.com/IdYSDpg.png",
+        "about": 
+        "A must-have dynamic weather dashboard utilising OpenWeatherMap API and built with jQuery, HTML and Bootstrap.",
+        "technologies": ["jQuery", "Bootstrap", "HTML", "Google Authentication API","Moment.js"],
+        "repo": "https://github.com/asrabilal/WeatherForecast.git",
+        "site": "https://asrabilal.github.io/WeatherForecast/"
+    },
+    {
+        "title": "Note Taker",
+        "image": "https://imgur.com/yhGJzXQ.png",
+        "about": 
+        "Note taking app that can be used to write, save, and delete notes built using node express.",
+        "technologies": ["Node.js", "Express.js", "HTML", "npm packages"],
+        "repo": "https://github.com/asrabilal/notedottaker.git",
+        "site": "https://notedottaker.herokuapp.com/notes"
+    },
+    {
+        "title": "Team Profile Generator",
+        "image": "https://imgur.com/bjYCJDQ.png",
+        "about": 
+        "A Node CLI that takes in information about employees and generates a dynamic HTML webpage.",
+        "technologies": ["Node.js", "Express.js", "HTML", "npm packages"],
+        "repo": "https://github.com/asrabilal/Team-Profile-Generator.git",
+        "site": "https://photos.app.goo.gl/BMtES7mqX4VAu96i6"
+    }
+]
