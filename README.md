@@ -1,102 +1,81 @@
 # 20 React: React Portfolio
 
-Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
 
-Your task is to create a portfolio using your new React skills which will help set you apart from other developers whose portfolios don’t use the latest technologies.
+ ![ASRA REACT PORTFOLIO](./public/pictures/website-example.png)
 
-You’ll deploy this application to GitHub Pages. Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
+# Auto_Auto Car Dealership
+  ## Licensing:
+  [![license](https://img.shields.io/badge/license-MIT-neonblue)](https://shields.io)
+  ## Table of Contents 
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [Testing](#testing)
+  - [Questions](#questions)
+  - [Additional Info](#additional-info)
+ 
+ 
+  ## Description:
+  I created my personal portfolio using React and Bootstrap. I will continually adding projects, modifying content, and updating the look and functionality.
 
-**Important:** Be sure to push your codebase to the default branch in GitHub -- NOT your built and deployed code. Ensure this happens by using the `gh-pages` branch to host the deployed application's build.
+  Please check out my work at https://asrabilal.github.io/Asra-React-Portfolio/!
+  
+  ## Installation:
+  To build a similar, single page portfolio or website for yourself, you'll want first create a new React app:
 
-## User Story
+  npx create-react-app <projectname>
+  Then for the single page, smooth scrolling, install react-scroll. To deploy to Github Pages, install gh-pages:
 
-```md
-AS AN employer looking for candidates with experience building single-page applications
-I WANT to view a potential employee's deployed React portfolio of work samples
-SO THAT I can assess whether they're a good candidate for an open position
-```
+  npm install react-scroll gh-pages
+  You can also fork and clone this repo to use as a template and then just run npm install
+  
+  ## Usage:
+  You'll be able to run the app locally by running npm start:
 
-## Acceptance Criteria
+ npm start
+ All your changes should update the local host in real time. If you want to deploy your app, you'll need to make a few changes to the package.json file. Directions      below for deploying to Github Pages:
 
-```md
-GIVEN a single-page application portfolio for a web developer
-WHEN I load the portfolio
-THEN I am presented with a page containing a header, a section for content, and a footer
-WHEN I view the header
-THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
-WHEN I view the navigation titles
-THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
-WHEN I click on a navigation title
-THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
-WHEN I load the portfolio the first time
-THEN the About Me title and section are selected by default
-WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
-WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
-WHEN I am presented with the Contact section
-THEN I see a contact form with fields for a name, an email address, and a message
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
-```
+ Add a homepage: to your package.json in the root
+ "homepage": "https://asrabilal.github.io/Asra-React-Portfolio/"
+  In the "scripts" property of your package.json, add two scripts: scripts
 
-## Mock-Up
+  Now, after you merge your changes and pull the most up-to-date master, open a new terminal and run npm run deploy:
 
-The following animation shows the web application's appearance and functionality:
+  npm run deploy
+  This creates a new branch, gh-pages. Open your deploy settings in Github and change the deploy branch to gh-pages deploysettings
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
+  Every time you want your deployed site to update with the changes you've made, you need to run npm run deploy
+  
+  ## License:
+  MIT
+  
+  ## Contribution:
+  No contributions at the moment. If anyone wishes to provide contributions, please contact the author.
+  
+  ## Testing:
+  Testing not required.
+  
+  ## Questions
+  [HERE](https://github.com/asrabilal)
 
-## Getting Started
+   
+  
+  ## Additional Info:
+  - Github: [asrabilal](https://github.com/asrabilal)
+  - Email: asra596@gmail.com 
 
-You’ll use `create-react-app` to build your portfolio, which will include the following:
+  <p>
+    <img src="https://img.shields.io/badge/-HTML-neon" />
+    <img src="https://img.shields.io/badge/-CSS-lightgrey" />
+    <img src="https://img.shields.io/badge/-Bootstrap-purple" />
+    <img src="https://img.shields.io/badge/-Node-green" />
+    <img src="https://img.shields.io/badge/-Graphql-blue" />
+    <img src="https://img.shields.io/badge/-npm-yellow" />
+    <img src="https://img.shields.io/badge/-Apolloserver-orange" />
+</p>
 
-* A single `Header` component that appears on multiple pages
+## URLs
+Github repository link: https://github.com/asrabilal/Asra-React-Portfolio.git <br>
+Deployed application link:https://asrabilal.github.io/Asra-React-Portfolio/ <br>
 
-* A single `Navigation` component within the header that will be used to conditionally render the different sections of your portfolio
-
-* A single `Project` component that will be used multiple times in the Portfolio section
-
-* A single `Footer` component that appears on multiple pages
-
-**Note:** Because this application doesn’t include a back end or connect to an API, the contact form doesn't need to save this information right now. You'll add back-end functionality in the next few weeks. In the meantime, consider including your email address and phone number on the Contact page.
-
-### Projects
-
-For each project you feature in your portfolio, you should include the following:
-
-* An image of the deployed application (either a GIF or a screenshot)
-
-* The title of the project
-
-* A link to the deployed application
-
-* A link to the corresponding GitHub repository
-
-### Design
-
-As with the previous portfolio homework, remember that "good" design is subjective; however, your site should look polished. Here are a few guidelines on what that means:
-
-* Use mobile-first design.
-
-* Choose a color palette so that your site doesn't just look like the default Bootstrap theme or an unstyled HTML site. Look into resources like [Coolors](https://coolors.co/) or another color scheme generator to help you create something that will stand out.
-
-* Make sure the font size is large enough to read and that the colors don't cause eye strain.
-
-* Consider using animations and React component libraries. Note that this will not affect your grade, but it may impact how potential employers gauge your knowledge.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README that describes the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
