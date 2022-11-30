@@ -1,11 +1,12 @@
 # 20 React: React Portfolio
 
 
- ![ASRA REACT PORTFOLIO](./public/pictures/website-example.png)
+ ![ASRA REACT PORTFOLIO](./Assets/profilepage.png)
 
-# Auto_Auto Car Dealership
+
   ## Licensing:
   [![license](https://img.shields.io/badge/license-MIT-neonblue)](https://shields.io)
+  
   ## Table of Contents 
   - [Description](#description)
   - [Installation](#installation)
@@ -56,8 +57,12 @@
   ## Testing:
   Testing not required.
   
-  ## Questions
+  ## Questions:
   [HERE](https://github.com/asrabilal)
+  
+  ## Screenshots:
+  ![gh-pages deployment](Assets/gh-pages deployment.png)<br>
+  ![contactform](Assets/contactform.png)<br>
 
    
   
