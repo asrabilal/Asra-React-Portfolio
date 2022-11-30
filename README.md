@@ -61,7 +61,7 @@
   [HERE](https://github.com/asrabilal)
   
   ## Screenshots:
-  ![gh-pages deployment](Assets/gh-pages deployment.png)<br>
+  ![gh-pagesdeployment](Assets/gh-pagesdeployment.png)<br>
   ![contactform](Assets/contactform.png)<br>
 
    
