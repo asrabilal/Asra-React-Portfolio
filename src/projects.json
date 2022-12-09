@@ -1,5 +1,14 @@
 [
     {
+        "title": "Between the covers",
+        "image": "https://imgur.com/J5cuVzb.png",
+        "about": 
+            "Betweenthecovers is the one stop website to find books and movies at the same time! The motivation behind making this website was to create a one stop for users, Can purchase/order the books/films all in one place online. Users can login and view the various movies and books as well as can leave reviews..",
+        "technologies": ["Node", "Express", "ApolloServer", "GraphQl", "MongoDB", "React"],
+        "repo": "https://github.com/Rankin47/Project-3.git",
+        "site": " https://mysterious-woodland-66616.herokuapp.com/"
+    },
+    {
         "title": "Auto Auto Cars Dealership",
         "image": "https://imgur.com/paw9ptf.png",
         "about": 
